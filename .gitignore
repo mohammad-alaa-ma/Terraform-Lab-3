@@ -1,0 +1,34 @@
+# Terraform directories
+.terraform/
+**/.terraform/*
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Plans
+*.tfplan
+plan.out
+
+# Local outputs/artifacts
+all-ips.txt
+
+# AWS/SSH keys
+*.pem
+*.key
+*.pub
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.code-workspace
+*.swp
+*.swo
